@@ -11,7 +11,7 @@ from rest_framework import status
 # This is to get all contacts
 
 @api_view(['GET'])
-def get_all_products(_):
+def get_all_contacts(_):
     contacts = Contact.objects.all()
     serializedContacts = ContactSerializer(contacts, many=True)
     return JsonResponse({
