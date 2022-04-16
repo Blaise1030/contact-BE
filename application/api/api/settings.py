@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-!+)kau1)mlwm#%vb!m*bhs&tik@@93-(q6$bw7%3^4nv=3_*zz
 DEBUG = True
 
 ALLOWED_HOSTS = ['http://localhost:3000', 'https://contactapp001.netlify.app']
+CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'https://contactapp001.netlify.app',
