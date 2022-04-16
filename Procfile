@@ -1,1 +1,1 @@
-web: python application/api/manage.py runserver 
+web: python application/api/manage.py runserver $PORT
